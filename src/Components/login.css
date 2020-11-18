@@ -1,0 +1,119 @@
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(21, 157, 190);
+   /* border: 2px solid  #54048a;*/
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(114, 3, 3, 0.2), 0 6px 20px 0 rgba(48, 1, 1, 0.19);
+    size: 100;
+    border: none;
+ 
+
+  }
+  
+  input[type=button]:hover {
+    opacity: 1;
+    background-color: rgb(42, 2, 105)
+  }
+
+  .loginForma {
+/*     border: 3px solid #54048a;
+ */    border-radius: 17px;
+    background-color: rgba(0, 255, 255, 0.39);    
+    opacity: 100%;
+    width: 20%;
+    padding: 20px;
+
+  }
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*vertical-align: middle;   */ 
+    
+    }
+
+  .bg-img{
+    background-image: url("./Photos/schoolCover.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    
+  }
+  
+/*
+  table{
+    background-color: aqua;
+    border-collapse: collapse;
+  }*/
+
+  .loginH1{
+    color: white;
+    font: 40px sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    vertical-align: top;
+  }
+ 
+  .fildsName{
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+
+  .loginStyl{
+    opacity: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+
+  }
+
+
+
+  input[type=text], input[type=password],
+  input[type=number], input[type=email], input[type=date], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    opacity: 100%;
+    background: rgb(1, 17, 46);
+    color: white;
+    }
+
+
+    .marquee {
+      width: 100%;
+     
+      color: rgb(6, 7, 88)55, 255, 255;
+      white-space: nowrap;
+      overflow: hidden;
+      box-sizing: border-box;
+      font-size: 18px;
+      font-weight: bold;
+      position: fixed;
+      bottom: 10px;
+      
+    }
+    .marquee p {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 12s linear infinite;
+    }
+     @keyframes marquee {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
+    }
+
+   

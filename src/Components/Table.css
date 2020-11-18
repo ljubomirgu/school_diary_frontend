@@ -1,0 +1,344 @@
+table {
+    /*border: 2px solid black;*/
+    border-collapse: collapse;
+    margin-right: 0%; 
+    width: 100%;
+   /* background-color: aqua;*/
+   background-color: #d3d3da;
+  }
+
+  thead{
+/*     background-color:  rgb(40, 40, 43); */
+    color: white;
+    font-size: 14px;
+  /*  background-color: rgb(58, 76, 236);*/
+    background-color: rgb(63, 72, 148);
+   /* position: sticky;   
+    display: table;
+    width: calc(100% - 17px);*/
+  }
+  /*
+  .trtbody {
+    display: block; 
+    max-height: 400px; 
+    overflow-y: scroll; 
+  }
+  */
+  .tableFixHead {
+    overflow: auto;
+    height: 450px;
+  }
+  
+  .tableFixHead, thead, th{
+    position: sticky;
+    top: -1px;
+   /* background-color: rgb(40, 40, 43);
+   background-color: rgb(58, 76, 236);*/
+   background-color: rgb(48, 48, 51);
+  }
+
+
+  .tablebg{
+    background-color: #d3d3da;
+  }
+
+  th {
+   /* border: 1px solid rgb(0, 0, 0);*/
+    text-align: center;
+    padding: 6px;
+    /*word-break: break-all;*/
+    
+  }
+  
+  td {
+    border: 1px solid rgb(163, 163, 163);
+    text-align: center;
+    padding: 6px;
+    /*word-break: break-all;*/
+  }
+
+  tr:nth-child(even) {
+    background-color: #bebedb;
+    
+    }
+
+    tr:hover {background-color: white;}
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+
+  .createButton{
+    /*background: rgb(19, 4, 105);*/
+    background:  rgb(58, 76, 236);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 12px 16px;  
+    cursor: pointer;
+    border: none;
+    
+ }
+  .createButton:hover{
+    background-color: rgb(19, 4, 105);
+    color: white;    
+  }
+
+  .deleteButton{
+     background: rgb(238, 96, 96);
+    /* border-radius: 8px;*/
+    color: black;
+    cursor: pointer;
+    padding: 5px 8px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .editButton{
+   /* background: rgb(134, 134, 240);*/
+    /* border-radius: 8px;*/
+    background:  rgb(58, 76, 236);
+   /* color: black;*/
+   color: white;
+    cursor: pointer;
+    padding: 5px 13px;
+    font-weight: bold;
+    border: none;
+
+  }
+
+  .deleteButton:hover{
+    background-color: rgb(160, 13, 13); 
+    color: white;   
+   }
+   .editButton:hover{
+    background-color: rgb(19, 4, 105);
+    color: white;;  
+   }
+ 
+  .viewButton{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 10px;
+    cursor: pointer;    
+    display: block;
+    margin: auto;
+    border:none
+   }
+  .viewButton:hover{
+    background-color: rgb(40, 40, 43);
+    color: white;
+  }
+
+  .removeButton{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px 10px;
+    cursor: pointer;    
+    display: block;
+    margin: auto;
+    background-color: rgb(238, 96, 96)d;
+    border: none;
+  }
+  .removeButton:hover{
+    background-color: rgb(160, 13, 13); 
+    color: white;   
+   }
+
+
+.editForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #4122f0;
+  border-radius: 5px;
+  background-color: rgb(205, 201, 247);
+  width: 30%;
+}
+
+.formaTable{
+  border: none;
+  margin-right: 0%;
+}
+  
+input{
+  size: 200px;
+}
+
+.formaEdita {
+  border: 3px solid #bdeb81;
+  border-radius: 9px;
+  background-color: rgb(176, 248, 248);
+  width: 50%;
+  padding: 20px; 
+ 
+}
+
+ h1{
+   color: white;
+   font-style: italic;   
+   margin-top: 7%;
+ }
+
+.editForma{
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  border: blue;
+  background-color: rgb(210, 211, 241);
+  float: right;
+  width: 120%;
+  border-radius: 3px;
+   /* background-color: rgba(219, 199, 172, 0.938);*/
+  /*width: 300px;*/
+}
+
+#cancel{
+  background-color: rgb(2, 10, 37);
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  border-radius: 5px;
+  float: right;
+  padding: 4px 8px; 
+}
+  /*
+  #cancel:hover{
+    background-color: rgb(83, 83, 41);
+    color: white;
+  }*/
+  /*
+  .saveStyl:hover{
+    background-color: rgb(7, 97, 109);
+  }*/
+
+.dateStyl{
+  width: 286px;
+}
+
+.saveStyl{
+  float: left;
+}
+#cancel:hover, .saveStyl:hover{
+  background-color: rgb(209, 207, 204);
+  color: rgb(10, 10, 10);
+}
+
+
+/*za link cancel u edit/create formama*/
+a{
+  float: right;
+}
+
+
+
+.profileStyl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.781);
+  opacity: 100%;
+  width: 33%;
+  padding: 20px;
+  border-radius: 17px;
+  margin-top: 7%;
+  margin-left: 31%;
+  font-size: 18px;
+  /*   position: center;*/
+  /*   border: 3px solid rgb(52, 37, 187);*/
+}
+
+.closeButton{
+  background-color: rgb(2, 10, 37);
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 12px; 
+  position: center;
+}
+.closeButton:hover{
+  background-color: rgb(209, 207, 204);
+  color: rgb(10, 10, 10);
+}
+
+.editProfileButton{
+  background-color: rgb(114, 146, 253);
+  color: black;
+  font-size: 12px;
+  font-style: italic;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 12px; 
+  position: center;
+}
+.editProfileButton:hover{
+  background-color: rgb(15, 56, 190);
+  color: white;
+}
+
+span{
+  font-weight: bold;
+}
+p{
+  text-align: left;
+}
+
+/*
+.download{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: rgba(255, 255, 255, 0.849);
+  border: 3px solid rgb(52, 37, 187);
+  opacity: 100%;
+  width: 75%;
+  position: center;
+  padding: 10px;
+  border-radius: 17px;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 12px;
+}
+*/
+
+.editFormaProfila{
+ /* background-color: rgb(210, 211, 241);*/
+ background-color: rgba(255, 255, 255, 0.781);
+  border-radius: 3px;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/*kolona #, sa brojačem vrsta:*/
+
+table {
+  counter-reset: tableCount;     
+}
+.counterCell:before {              
+  content: counter(tableCount); 
+  counter-increment: tableCount; 
+}
+
+.addDepart{
+  background-color: rgb(21, 157, 190);
+  font-weight: bolder;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+.addDepart:hover{
+  color:white;
+  background-color:  rgb(13, 82, 99);
+
+}

@@ -1,0 +1,180 @@
+header{
+    padding: 37px;
+    text-align: center;
+    background: rgb(31, 32, 36);
+    color: white;
+    font-size: 21px;
+    position: sticky;
+    top: 0px;
+  }
+
+
+
+  .profileStyl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.781);
+    opacity: 100%;
+    width: 33%;
+    padding: 20px;
+    border-radius: 17px;
+    margin-top: 10%;
+    margin-left: 31%;
+    font-size: 18px;
+    /*   position: center;*/
+    /*   border: 3px solid rgb(52, 37, 187);*/
+  }
+
+  .closeButton{
+    background-color: rgb(2, 10, 37);
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 12px; 
+    position: center;
+  }
+
+  .closeButton:hover{
+    background-color: rgb(209, 207, 204);
+    color: rgb(10, 10, 10);
+  }
+  
+  .editProfileButton{
+    background-color: rgb(114, 146, 253);
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 12px; 
+    position: center;
+  }
+  .editProfileButton:hover{
+    background-color: rgb(15, 56, 190);
+    color: white;
+  }
+
+  
+.editFormaProfila{
+    background-color: rgb(210, 211, 241);
+    border-radius: 3px;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  
+  .wellcomeStudent{
+    text-align: center;
+    padding-left: 20px;
+    color: rgb(58, 76, 236);
+    font-size: 30px;
+    font-weight: bold;
+    height: 58.4px;
+    vertical-align: center;
+    background-color: rgb(31, 32, 36);
+  }
+
+ 
+
+
+
+  .admin-bg{
+    background-image: url("../Photos/wp2508260.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed; 
+    overflow: auto;
+  }
+
+
+
+
+  .profile:hover{
+    background-color: rgb(58, 76, 236);
+    color: white;
+  }
+  .logout:hover{
+    background-color: rgb(58, 76, 236);
+    color: black;
+  }
+
+
+
+  .profile{
+    background-color:white;
+    color: darkslateblue;
+    float: left;
+   /* border: solid rgb(53, 53, 9) ;*/
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 6%;
+
+    border-color: black;
+  }
+
+
+
+  .logout{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    float: right;
+   /* border: solid rgb(6, 34, 75) ;   */
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 21px;
+    font-weight: bolder;
+    width: 17%;
+    border: none;
+   /* border-color: black;*/
+  }
+
+  .grades{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+
+   /* border: solid rgb(6, 34, 75) ;   */
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 21px;
+    font-weight: bolder;
+    width: 17%;
+    border: none;
+  }
+
+  .grades:hover{
+    background-color: rgb(58, 76, 236);
+    color: black;
+  }
+
+  table {
+    counter-reset: tableCount;     
+  }
+  .counterCell:before {              
+    content: counter(tableCount); 
+    counter-increment: tableCount; 
+  }
+
+  table {
+    counter-reset: tableCount;     
+  }
+  .counterCell:before {              
+    content: counter(tableCount); 
+    counter-increment: tableCount; 
+  }
